@@ -100,10 +100,10 @@ Baby.prototype.play = function () {
 /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window Binding - this is the default that is applied if none of the other ones applies, this applies what is after the dot to the window object that contains everything.  
+    2. Implicit Binding - this is when this looks to what is being referenced before the dot. This the one that is used the most. 
+    3. Explicit Binding - this is used with .call on a function to invoke it on an specific contex.
+    4. New Binding - this binding is used when you create a function by using a creator function and refers the this to the new function that is being created. 
   */
 
 ///////// END OF CHALLENGE /////////
